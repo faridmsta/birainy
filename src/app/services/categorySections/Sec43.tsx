@@ -17,10 +17,10 @@ const lists = {
 const Sec43 = () => {
     return (
         <section className='flex flex-col gap-6 pb-20'>
-            <div className="title text-[2rem] vs:text-[2.5rem] md:text-[3rem] mtb:!text-[4rem] font-neue "
+            <div className="serviceSectionTitle"
             >İnsan Resurslarının təhlili    </div>
             <div className="">
-                <p className="text-[rgba(0,0,0,.72)]">İnsan resurslarının təhlili şirkətin işçilərinə aid məlumatların toplanması və təhlilini əhatə edir. Bu cür təhlil həm kəmiyyət, həm də keyfiyyət metodlarından istifadə etməklə həyata keçirilir, bura daxildir:</p>
+                <p className="serviceSectionParagraf">İnsan resurslarının təhlili şirkətin işçilərinə aid məlumatların toplanması və təhlilini əhatə edir. Bu cür təhlil həm kəmiyyət, həm də keyfiyyət metodlarından istifadə etməklə həyata keçirilir, bura daxildir:</p>
                 <ul>
                     {lists["frs"].map((item, index) => (
                         <li
@@ -29,7 +29,7 @@ const Sec43 = () => {
                     ))}
                 </ul>
             </div>
-            <p className="text-[rgba(0,0,0,.72)]"
+            <p className="serviceSectionParagraf"
             >HR təhlilinin son məqsədi işçi qüvvəsinin planlaşdırılması üçün nümunələri, təkmilləşdirilməli sahələri və strateji imkanları müəyyən etməkdir.</p>
 
             <div className="btns flex flex-col md:flex-row items-start gap-4 ">

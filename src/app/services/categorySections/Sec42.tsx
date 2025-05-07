@@ -14,10 +14,10 @@ const lists = {
 const Sec42 = () => {
     return (
         <section className='flex flex-col gap-6 pb-20'>
-            <div className="title text-[2rem] vs:text-[2.5rem] md:text-[3rem] mtb:!text-[4rem] font-neue "
+            <div className="serviceSectionTitle"
             >Maliyyə təhlili</div>
             <div className="">
-                <p className="text-[rgba(0,0,0,.72)]">Maliyyə təhlili şirkətin və ya təşkilatın maliyyə vəziyyətini qiymətləndirmək üçün:</p>
+                <p className="serviceSectionParagraf">Maliyyə təhlili şirkətin və ya təşkilatın maliyyə vəziyyətini qiymətləndirmək üçün:</p>
                 <ul>
                     {lists["frs"].map((item, index) => (
                         <li
@@ -26,7 +26,7 @@ const Sec42 = () => {
                     ))}
                 </ul>
             </div>
-            <p className="text-[rgba(0,0,0,.72)]">Bu təhlilin məqsədi şirkətin gəlirliliyini, likvidliyini və ödəmə qabiliyyətini qiymətləndirmək, əsaslandırılmış investisiya və ya kredit qərarları qəbul etməkdir.</p>
+            <p className="serviceSectionParagraf">Bu təhlilin məqsədi şirkətin gəlirliliyini, likvidliyini və ödəmə qabiliyyətini qiymətləndirmək, əsaslandırılmış investisiya və ya kredit qərarları qəbul etməkdir.</p>
             <div className="btns flex flex-col md:flex-row items-start gap-4 ">
                 <ContactUsBtn />
                 <OurWorksBtn />

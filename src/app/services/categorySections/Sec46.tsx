@@ -5,7 +5,7 @@ import data from '@/assets/img/data.webp'
 const Sec46 = () => {
     return (
         <section className='flex flex-col gap-6 pb-20'>
-            <div className="title text-[2rem] vs:text-[2.5rem] md:text-[3rem] mtb:!text-[4rem] font-neue "
+            <div className="serviceSectionTitle"
             >Əsas Performans Göstəriciləri (KPI) təhlili</div>
             <p className="text-[rgba(0,0,0,.72)]">KPI təhlili şirkətin fəaliyyətinin onun strateji məqsəd və vəzifələrinə
                 uyğun qiymətləndirilməsini əhatə edir. Bu proses, müştəri saxlamaq

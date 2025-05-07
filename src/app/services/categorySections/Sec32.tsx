@@ -16,11 +16,11 @@ const lists = {
 const Sec32 = () => {
     return (
         <section className='flex flex-col gap-6 pb-20 '>
-            <div className="title text-[2rem] vs:text-[2.5rem] md:text-[3rem] mtb:!text-[4rem] font-neue "
+            <div className="serviceSectionTitle"
             >CRM və ERP</div>
-            <p className="font-grotesk text-[rgba(0,0,0,.72)] ">BIRainy şirkəti şirkətlərin istəyinə və istifadə edəcəkləri istiqamətə uyğun olaraq özlərinə məxsus elementlərin, logonun da yer aldığı və müştərilərinin endirimlər qazanaraq əylənə bilmələri üçün stend və VR oyunlar yazır.</p>
+            <p className="serviceSectionParagraf">BIRainy şirkəti şirkətlərin istəyinə və istifadə edəcəkləri istiqamətə uyğun olaraq özlərinə məxsus elementlərin, logonun da yer aldığı və müştərilərinin endirimlər qazanaraq əylənə bilmələri üçün stend və VR oyunlar yazır.</p>
             <div className="">
-            <p className="font-grotesk text-[rgba(0,0,0,.72)] ">Stend və VR oyunları event, forumlar, tədbirlər, açılışlarda şirkətə qazandırır:</p>
+            <p className="serviceSectionParagraf">Stend və VR oyunları event, forumlar, tədbirlər, açılışlarda şirkətə qazandırır:</p>
                 <ul>
                     {lists["frs"].map((item, index) => (
                         <li

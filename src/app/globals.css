@@ -38,5 +38,12 @@
   }
 }
 
+.serviceSectionTitle{
+  @apply text-[2rem] vs:text-[2.5rem] md:text-[3rem] mtb:!text-[4rem] font-neue leading-[1.2] 
+}
+.serviceSectionParagraf{
+  @apply text-[rgba(0,0,0,.72)] font-grotesk
+}
+
 
 

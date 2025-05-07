@@ -5,9 +5,9 @@ import React from 'react'
 const Sec12 = () => {
     return (
         <section className='flex flex-col gap-6 pb-20'>
-            <div className="title text-[2rem] vs:text-[2.5rem] md:text-[3rem] mtb:!text-[4rem] font-neue "
+            <div className="serviceSectionTitle"
             >Sürətli Axtarış Sistemi</div>
-            <p className="text-[rgba(0,0,0,.72)]">Şirkətdaxili və xarici proseslərin həyata keçirilməsi, həmçinin əməkdaşların şirkət daxilindəki sənədləri avtomatlaşdırılmış şəkildə axtarış edib, rahatlıqla yerləşdirib, toplaya və göndərə bildikləri OCR alqoritmi ilə hazırlanmış Sürətli Axtarış Sistemi.</p>
+            <p className="serviceSectionParagraf">Şirkətdaxili və xarici proseslərin həyata keçirilməsi, həmçinin əməkdaşların şirkət daxilindəki sənədləri avtomatlaşdırılmış şəkildə axtarış edib, rahatlıqla yerləşdirib, toplaya və göndərə bildikləri OCR alqoritmi ilə hazırlanmış Sürətli Axtarış Sistemi.</p>
             <div className="btns flex flex-col md:flex-row items-start gap-4">
                 <ContactUsBtn />
                 <OurWorksBtn />

@@ -16,11 +16,11 @@ const lists = {
 const Sec410 = () => {
     return (
         <section className='flex flex-col gap-6 pb-20'>
-            <div className="title text-[2rem] vs:text-[2.5rem] md:text-[3rem] mtb:!text-[4rem] font-neue "
+            <div className="serviceSectionTitle"
             >Sosial Media</div>
-            <p className="text-[rgba(0,0,0,.72)]">BIRainy tərəfindən Sosial Media üzrə vizuallaşdırılmış dashboard idarə olunan platformalarda performans göstəricilərinin hərtərəfli təhlilini təqdim edir. Təhlildə diqqət real vaxt çərçivəsində auditoriya ilə qarşılıqlı əlaqə, məzmunun effektivliyi və platformanın ümumi inkişafı ilə bağlı fikirləri təqdim edən əsas göstəricilərə yönəlib.</p>
+            <p className="serviceSectionParagraf">BIRainy tərəfindən Sosial Media üzrə vizuallaşdırılmış dashboard idarə olunan platformalarda performans göstəricilərinin hərtərəfli təhlilini təqdim edir. Təhlildə diqqət real vaxt çərçivəsində auditoriya ilə qarşılıqlı əlaqə, məzmunun effektivliyi və platformanın ümumi inkişafı ilə bağlı fikirləri təqdim edən əsas göstəricilərə yönəlib.</p>
             <div className="">
-                <p className="text-[rgba(0,0,0,.72)]">Təhlilin komponetləri bunlardır:</p>
+                <p className="serviceSectionParagraf">Təhlilin komponetləri bunlardır:</p>
                 <ul>
                     {lists["frs"].map((item, index) => (
                         <li

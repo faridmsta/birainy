@@ -18,11 +18,11 @@ const lists = {
 const Sec49 = () => {
     return (
         <section className='flex flex-col gap-6 pb-20'>
-            <div className="title text-[2rem] vs:text-[2.5rem] md:text-[3rem] mtb:!text-[4rem] font-neue "
+            <div className="serviceSectionTitle"
             >Satış/KPI</div>
-            <p className="text-[rgba(0,0,0,.72)]">BIRainy tərəfindən təqdim olunan Satış və KPI analizi hesabatı, satış prosesinin müxtəlif fazalarını izləməyə imkan verir. Bu hesabat vasitəsilə sahibkarlar, anbarların vəziyyəti, müştəri qruplarının seçimləri, satışlar və əldə edilmiş gəlirlər haqqında detallı məlumatla təchiz olunurlar.</p>
+            <p className="serviceSectionParagraf">BIRainy tərəfindən təqdim olunan Satış və KPI analizi hesabatı, satış prosesinin müxtəlif fazalarını izləməyə imkan verir. Bu hesabat vasitəsilə sahibkarlar, anbarların vəziyyəti, müştəri qruplarının seçimləri, satışlar və əldə edilmiş gəlirlər haqqında detallı məlumatla təchiz olunurlar.</p>
             <div className="">
-                <p className="text-[rgba(0,0,0,.72)]">Hesabat bu metrikləri ehtiva edir:</p>
+                <p className="serviceSectionParagraf">Hesabat bu metrikləri ehtiva edir:</p>
                 <ul>
                     {lists["frs"].map((item, index) => (
                         <li

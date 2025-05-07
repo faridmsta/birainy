@@ -25,11 +25,11 @@ const lists = {
 const Sec411 = () => {
     return (
         <section className='flex flex-col gap-6 pb-20'>
-            <div className="title text-[2rem] vs:text-[2.5rem] md:text-[3rem] mtb:!text-[4rem] font-neue "
+            <div className="serviceSectionTitle"
             >Restoranlar</div>
-            <p className="text-[rgba(0,0,0,.72)]">Restoranlar üzrə təhlil restoranın fəaliyyətinin müxtəlif aspektləri haqqında məlumat verən mühüm vasitədir. O, maliyyə sağlamlığını qiymətləndirməyə, qərar qəbul etməyə, inventarları idarə etməyə, müştərilərin seçimlərini başa düşməyə, işçilərin fəaliyyətini qiymətləndirməyə və qaydalara uyğunluğu təmin etməyə kömək edir. </p>
+            <p className="serviceSectionParagraf">Restoranlar üzrə təhlil restoranın fəaliyyətinin müxtəlif aspektləri haqqında məlumat verən mühüm vasitədir. O, maliyyə sağlamlığını qiymətləndirməyə, qərar qəbul etməyə, inventarları idarə etməyə, müştərilərin seçimlərini başa düşməyə, işçilərin fəaliyyətini qiymətləndirməyə və qaydalara uyğunluğu təmin etməyə kömək edir. </p>
             <div className="">
-                <p className="text-[rgba(0,0,0,.72)]">BIRainy komandası tərəfindən hazırlanmış dashboardu əhatə edir:</p>
+                <p className="serviceSectionParagraf">BIRainy komandası tərəfindən hazırlanmış dashboardu əhatə edir:</p>
                 <ul>
                     {lists["frs"].map((item, index) => (
                         <li

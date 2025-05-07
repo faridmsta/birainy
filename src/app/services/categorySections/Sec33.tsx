@@ -16,9 +16,9 @@ const lists = {
 const Sec33 = () => {
   return (
     <section className='flex flex-col gap-6 pb-20 '>
-            <div className="title text-[2rem] vs:text-[2.5rem] md:text-[3rem] mtb:!text-[4rem] font-neue "
+            <div className="serviceSectionTitle"
             >CRM və ERP</div>
-            <p className="font-grotesk text-[rgba(0,0,0,.72)] ">İstifadəçinin uzun müddət veb-saytda qalması və axtarış sistemində biznes veb-saytlarının təbii yollarla artımını təmin etmək üçün veb oyunların yazılması</p>
+            <p className="serviceSectionParagraf">İstifadəçinin uzun müddət veb-saytda qalması və axtarış sistemində biznes veb-saytlarının təbii yollarla artımını təmin etmək üçün veb oyunların yazılması</p>
             <div className="">
                 <ul>
                     {lists["frs"].map((item, index) => (
