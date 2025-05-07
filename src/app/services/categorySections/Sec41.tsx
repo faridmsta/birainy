@@ -4,7 +4,7 @@ import Image from 'next/image'
 import data from '@/assets/img/data.webp'
 const Sec41 = () => {
     return (
-        <section className='flex flex-col gap-6 pb-20'>
+        <section className='flex flex-col gap-6'>
             <div className="serviceSectionTitle"
             >Data analitikası</div>
             <p className="serviceSectionParagraf">BIRainy MMC tərəfindən şirkətin dataları bütün mənbələrdən müxtəlif formatlarda toplandıqdan sonra təmizlənir. Təmizlənmiş datalar qrafiklərlə vizuallaşdırılır və analiz olunduqdan sonra biznes yönümlü analitik həllər şirkətə təklif edilir. Son mərhələdə hazırlanmış dashboard-larda şirkət real vaxt rejimində yeni datalara əsasən məlumatları da görə bilir.</p>

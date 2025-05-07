@@ -18,7 +18,7 @@ const lists = {
 
 const Sec13 = () => {
     return (
-        <section className='flex flex-col gap-6 pb-20 '>
+        <section className='flex flex-col gap-6 '>
             <div className="serviceSectionTitle"
             >CRM və ERP</div>
             <div className="">

@@ -3,7 +3,7 @@ import React from 'react'
 
 const Sec34 = () => {
     return (
-        <section className='flex flex-col gap-6 pb-20 '>
+        <section className='flex flex-col gap-6 '>
             <div className="serviceSectionTitle"
             >VR simulyatorlar</div>
             <p className="serviceSectionParagraf">BIRainy tərəfindən şirkətlərin istəklərinə uyğun olaraq VR simulyatorlar yazılır və hololens, ocolus kimi VR eynəklərlə təmin edilir.</p>

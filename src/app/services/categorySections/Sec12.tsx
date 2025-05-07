@@ -4,7 +4,7 @@ import React from 'react'
 
 const Sec12 = () => {
     return (
-        <section className='flex flex-col gap-6 pb-20'>
+        <section className='flex flex-col gap-6 '>
             <div className="serviceSectionTitle"
             >Sürətli Axtarış Sistemi</div>
             <p className="serviceSectionParagraf">Şirkətdaxili və xarici proseslərin həyata keçirilməsi, həmçinin əməkdaşların şirkət daxilindəki sənədləri avtomatlaşdırılmış şəkildə axtarış edib, rahatlıqla yerləşdirib, toplaya və göndərə bildikləri OCR alqoritmi ilə hazırlanmış Sürətli Axtarış Sistemi.</p>

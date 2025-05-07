@@ -15,7 +15,7 @@ const lists = {
 
 const Sec32 = () => {
     return (
-        <section className='flex flex-col gap-6 pb-20 '>
+        <section className='flex flex-col gap-6 '>
             <div className="serviceSectionTitle"
             >CRM və ERP</div>
             <p className="serviceSectionParagraf">BIRainy şirkəti şirkətlərin istəyinə və istifadə edəcəkləri istiqamətə uyğun olaraq özlərinə məxsus elementlərin, logonun da yer aldığı və müştərilərinin endirimlər qazanaraq əylənə bilmələri üçün stend və VR oyunlar yazır.</p>

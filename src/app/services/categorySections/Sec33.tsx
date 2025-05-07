@@ -15,7 +15,7 @@ const lists = {
 
 const Sec33 = () => {
   return (
-    <section className='flex flex-col gap-6 pb-20 '>
+    <section className='flex flex-col gap-6 '>
             <div className="serviceSectionTitle"
             >CRM və ERP</div>
             <p className="serviceSectionParagraf">İstifadəçinin uzun müddət veb-saytda qalması və axtarış sistemində biznes veb-saytlarının təbii yollarla artımını təmin etmək üçün veb oyunların yazılması</p>

@@ -15,7 +15,7 @@ const lists = {
 
 const Sec410 = () => {
     return (
-        <section className='flex flex-col gap-6 pb-20'>
+        <section className='flex flex-col gap-6'>
             <div className="serviceSectionTitle"
             >Sosial Media</div>
             <p className="serviceSectionParagraf">BIRainy tərəfindən Sosial Media üzrə vizuallaşdırılmış dashboard idarə olunan platformalarda performans göstəricilərinin hərtərəfli təhlilini təqdim edir. Təhlildə diqqət real vaxt çərçivəsində auditoriya ilə qarşılıqlı əlaqə, məzmunun effektivliyi və platformanın ümumi inkişafı ilə bağlı fikirləri təqdim edən əsas göstəricilərə yönəlib.</p>

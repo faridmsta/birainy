@@ -16,7 +16,7 @@ const lists = {
 
 const Sec43 = () => {
     return (
-        <section className='flex flex-col gap-6 pb-20'>
+        <section className='flex flex-col gap-6'>
             <div className="serviceSectionTitle"
             >İnsan Resurslarının təhlili    </div>
             <div className="">

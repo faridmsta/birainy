@@ -3,7 +3,7 @@ import OurWorksBtn from '@/components/OurWorksBtn'
 
 const Sec47 = () => {
     return (
-        <section className='flex flex-col gap-6 pb-20'>
+        <section className='flex flex-col gap-6'>
             <div className="serviceSectionTitle"
             >1C proqramı ilə inteqrasiya</div>
             <p className="serviceSectionParagraf">1C proqramından verilənlərin Microsoft Power BI-a qoşulması biznes məlumatlarının təhlili və vizuallaşdırılması üçündür. Bu inteqrasiya şirkətlərə real vaxt rejimində məlumat təhlilindən istifadə etməklə yaxşı əsaslandırılmış qərarlar qəbul etmək imkanı verir.</p>

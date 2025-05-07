@@ -24,7 +24,7 @@ const lists = {
 
 const Sec411 = () => {
     return (
-        <section className='flex flex-col gap-6 pb-20'>
+        <section className='flex flex-col gap-6'>
             <div className="serviceSectionTitle"
             >Restoranlar</div>
             <p className="serviceSectionParagraf">Restoranlar üzrə təhlil restoranın fəaliyyətinin müxtəlif aspektləri haqqında məlumat verən mühüm vasitədir. O, maliyyə sağlamlığını qiymətləndirməyə, qərar qəbul etməyə, inventarları idarə etməyə, müştərilərin seçimlərini başa düşməyə, işçilərin fəaliyyətini qiymətləndirməyə və qaydalara uyğunluğu təmin etməyə kömək edir. </p>

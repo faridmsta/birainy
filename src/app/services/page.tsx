@@ -1,6 +1,6 @@
 import dynamic from 'next/dynamic';
 
-const fallbackComponent = () => import('./categorySections/Sec11');
+
 
 
 interface PageProps {
@@ -14,7 +14,11 @@ const Page = async ({ searchParams }: PageProps) => {
 
     const DynamicComponent = dynamic(
         () =>
-            import(`./categorySections/Sec${id}${tab}`).catch(() => fallbackComponent()),
+            import(`./categorySections/Sec${id}${tab}`).catch(() => {
+                // If TAB and ID is out of range 
+                const fallbackComponent = () => import('./categorySections/Sec11');
+                return fallbackComponent()
+            }),
         {
             loading: () => <p>Loading...</p>,
         }

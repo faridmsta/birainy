@@ -6,7 +6,7 @@ import gameService from '@/assets/img/game_service.webp'
 
 const Sec31 = () => {
     return (
-        <section className='flex flex-col gap-6 pb-20'>
+        <section className='flex flex-col gap-6'>
             <div className="serviceSectionTitle"
             >Proqram Təminatı</div>
             <p className="serviceSectionParagraf">Şirkətin fəaliyyət göstərdiyi istiqamətə, istehsal etdiyi məhsullara uyğun olaraq oyun ssenarisi hazırlanır, son trendlərə əsaslanaraq dizayn olunur və oyun developerləri tərəfindən 2D və 3D formatında oyunlar yazılır. Oyunun növünə uyğun assetlərdən istifadə edilir.</p>

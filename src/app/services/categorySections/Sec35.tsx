@@ -3,7 +3,7 @@ import React from 'react'
 const Sec35 = () => {
 
     return (
-        <section className='flex flex-col gap-6 pb-20 '>
+        <section className='flex flex-col gap-6 '>
             <div className="serviceSectionTitle"
             >Oyun monitoru kirayəsi</div>
             <p className="serviceSectionParagraf">Təqdim etdiyimiz stend oyunlarla birgə monitorları da kirayələmək mümkündür.</p>

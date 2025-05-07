@@ -4,7 +4,7 @@ import Image from 'next/image'
 import data from '@/assets/img/data.webp'
 const Sec44 = () => {
     return (
-        <section className='flex flex-col gap-6 pb-20'>
+        <section className='flex flex-col gap-6'>
             <div className="serviceSectionTitle"
             >Optimizasiya təhlili</div>
             <p className="serviceSectionParagraf">Optimallaşdırma təhlili resursların bölüşdürülməsi və ya seçim edilməsini nəzərdə tutan problemin optimal həllini müəyyən etmək üçün riyazi model və metodlardan istifadə prosesinə aiddir. Optimallaşdırma təhlili maliyyə, mühəndislik, logistika və əməliyyatların idarə edilməsi kimi sahələrdə geniş tətbiq sahəsinə malikdir və səmərəliliyin artırılmasına, xərclərin azaldılmasına, təkmilləşdirilmiş performansa kömək edir.</p>

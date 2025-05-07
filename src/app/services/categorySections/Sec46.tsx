@@ -4,7 +4,7 @@ import Image from 'next/image'
 import data from '@/assets/img/data.webp'
 const Sec46 = () => {
     return (
-        <section className='flex flex-col gap-6 pb-20'>
+        <section className='flex flex-col gap-6'>
             <div className="serviceSectionTitle"
             >Əsas Performans Göstəriciləri (KPI) təhlili</div>
             <p className="text-[rgba(0,0,0,.72)]">KPI təhlili şirkətin fəaliyyətinin onun strateji məqsəd və vəzifələrinə

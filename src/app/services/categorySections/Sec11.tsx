@@ -5,7 +5,7 @@ import Image from 'next/image'
 
 const Sec11 = () => {
     return (
-        <section className='flex flex-col gap-6 pb-20'>
+        <section className='flex flex-col gap-6 '>
             <div className="serviceSectionTitle"
             >Proqram Təminatı</div>
             <p className="serviceSectionParagraf">BIRainy şirkətlərin istəklərinə uyğun olaraq proqram təminatı hazırlayır. Proqramın son trendlərə və interfeysinin rahat istifadəyə uyğun olması əsas üstünlüyümüzdür.</p>

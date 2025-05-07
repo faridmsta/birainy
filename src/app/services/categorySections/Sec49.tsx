@@ -17,7 +17,7 @@ const lists = {
 
 const Sec49 = () => {
     return (
-        <section className='flex flex-col gap-6 pb-20'>
+        <section className='flex flex-col gap-6'>
             <div className="serviceSectionTitle"
             >Satış/KPI</div>
             <p className="serviceSectionParagraf">BIRainy tərəfindən təqdim olunan Satış və KPI analizi hesabatı, satış prosesinin müxtəlif fazalarını izləməyə imkan verir. Bu hesabat vasitəsilə sahibkarlar, anbarların vəziyyəti, müştəri qruplarının seçimləri, satışlar və əldə edilmiş gəlirlər haqqında detallı məlumatla təchiz olunurlar.</p>
