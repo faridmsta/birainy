@@ -77,7 +77,7 @@ const cts = [
 ];
 
 
-const Page = ({ searchParams }: { searchParams: { [key: string]: string | string[] | undefined | any } }) => {
+const Page = ({ searchParams }: { searchParams: { [key: string]: string | undefined | any } }) => {
 
 
 
