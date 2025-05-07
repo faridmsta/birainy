@@ -1,5 +1,6 @@
+'use client';
 import Link from "next/link";
-
+import { useSearchParams } from 'next/navigation';
 
 const asideTabs = [
     {
@@ -92,12 +93,16 @@ const asideTabs = [
                 tabid: 8
             },
             {
-                sCatTitle: "Sosial Media",
+                sCatTitle: "Satış/KPI",
                 tabid: 9
             },
             {
-                sCatTitle: "Restoranlar",
+                sCatTitle: "Sosial Media",
                 tabid: 10
+            },
+            {
+                sCatTitle: "Restoranlar",
+                tabid: 11
             },
         ]
     },
@@ -110,8 +115,18 @@ export default function RootLayout({
 }: Readonly<{
     children: React.ReactNode;
 }>) {
+
+    const searchParams = useSearchParams();
+    const queryId = Number(searchParams.get('id'));
+    const queryTab = Number(searchParams.get('tab') || 1);
+
+
+
+    console.log(queryId);
+
+
     return (
-        <section className="mt mt-[72px] mtb:mt-0">
+        <section className="mt mt-[72px] mtb:mt-0 mb-20">
             <div className="container">
                 <div className="title w-full inline-flex flex-col mt-[24px] mb-[16px] vs:mt-[48px] vs:mb-[24px] mtb:mt-[72px] mtb:mb-[48px]">
                     <Star />
@@ -121,9 +136,9 @@ export default function RootLayout({
                             <p className="text-[14px] vs:text-[1rem] font-grotesk text-[rgba(0,0,0,.72)] ">Şirkət daxilindəki prosesləri və müştərilərlə əlaqəni avtomatlaşdırılmış şəkildə həyata keçirtmək və bazarda innovativ şəkildə inkişaf etmək üçün bizim xidmətlərdən yararlanın.</p>
                         </div>
                         <div className="orderBtnWrap hidden mtb:inline">
-                            <Link href={""} className="orederBtn group relative bg-dark rounded-full inline-flex items-center justify-center w-[136px] h-[136px]">
+                            <Link href={"/contact"} className="orederBtn group relative bg-dark rounded-full inline-flex items-center justify-center w-[136px] h-[136px]">
                                 <CircularText />
-                                <Line className="-rotate-45 group-hover:rotate-0 transform duration-300" />
+                                <Line className="-rotate-30 group-hover:rotate-0 transform duration-300" />
                             </Link>
                         </div>
 
@@ -131,28 +146,34 @@ export default function RootLayout({
 
                 </div>
                 <div className="bottom flex flex-col mtb:flex-row gap-6 items-start mtb:gap-12">
-                    <div className="left bg-red-400 flex-[1] w-full">
-                        <aside>
+                    <div className="left flex-[1.1] w-full mtb:sticky top-[24px]">
+                        <aside >
                             <div className="cats flex flex-col gap-3">
                                 {
                                     asideTabs.map(({ catTitle, id, subCats }, index) => {
                                         const isSub = subCats?.length != 0
 
                                         return (
-                                            <div key={catTitle + index} className="cat bg-gray-light rounded-[12px] overflow-hidden">
-                                                <Link href={`/services?id=${id}`} className="label py-[20px] px-[28px] flex items-center justify-between ">
-                                                    <span>{catTitle}</span>
-                                                    {isSub && <span>+</span>}
+                                            <div key={catTitle + index} className={`cat bg-gray-light rounded-[12px] overflow-hidden font-neue transition-all duration-300 border border-transparent hover:border-primary `}>
+                                                <Link href={`/services?id=${id}`} className="label py-[20px] px-[28px] flex items-center justify-between text-[20px] lg:text-[24px]">
+                                                    <span className={`text-dark whitespace-nowrap`} >{catTitle}</span>
+                                                    {isSub && (
+                                                        (queryId === id)? <Minus/> : <Plus/>
+                                                    )}
 
                                                 </Link>
                                                 {
                                                     isSub && (
-                                                        <ul className="py-[20px] px-[28px] flex flex-col gap-4 border-t-2 border-t-[rgba(0,0,0,.16)]">
+                                                        <ul
+                                                            className={`${queryId === id
+                                                                ? 'py-[20px] px-[28px] flex flex-col gap-4 border-t-2 border-t-[rgba(0,0,0,.16)]'
+                                                                : 'max-h-0 p-0 overflow-hidden'
+                                                                }`}>
                                                             {
-                                                                subCats.map(({ sCatTitle,tabid }, index) => (
+                                                                subCats.map(({ sCatTitle, tabid }, index) => (
                                                                     <li key={sCatTitle + index}>
                                                                         <Link href={`/services?id=${id}&tab=${tabid}`} >
-                                                                            <span className="text-[rgba(0,0,0,.48)]">
+                                                                            <span className={`text-[rgba(0,0,0,.48)] text-[20px] ${queryTab === tabid && "text-dark"}`}>
                                                                                 {sCatTitle}
                                                                             </span>
                                                                         </Link>
@@ -171,7 +192,7 @@ export default function RootLayout({
                             </div>
                         </aside>
                     </div>
-                    <div className="right bg-amber-400 flex-2">
+                    <div className="right flex-2">
                         {children}
                     </div>
                 </div>
@@ -192,7 +213,7 @@ const CircularText = () => (
         className="
       absolute top-0 left-0
       w-full h-full
-      animate-[spin_12s_linear_infinite]
+      animate-[spin_10s_linear_infinite]
       group-hover:[animation-play-state:paused]
     "
     >
@@ -217,3 +238,11 @@ const Line = ({ className }: { className?: string }) => (
     </svg>
 )
 
+const Minus = () => (
+    <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 32 32" fill="none"><mask id="mask0_5619_7982" maskUnits="userSpaceOnUse" x="0" y="0" width="32" height="32"><rect width="32" height="32" fill="#D9D9D9"></rect></mask><g mask="url(#mask0_5619_7982)"><path d="M6.66699 17.3333V14.6666H25.3337V17.3333H6.66699Z" fill="#1C1B1F"></path></g></svg>
+)
+
+
+const Plus = () => (
+    <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 32 32" fill="none"><mask id="mask0_2638_8336" maskUnits="userSpaceOnUse" x="0" y="0" width="32" height="32"><rect width="32" height="32" fill="#D9D9D9"></rect></mask><g mask="url(#mask0_2638_8336)"><path d="M14.667 25.3333V17.3333H6.66699V14.6666H14.667V6.66663H17.3337V14.6666H25.3337V17.3333H17.3337V25.3333H14.667Z" fill="#1C1B1F"></path></g></svg>
+)

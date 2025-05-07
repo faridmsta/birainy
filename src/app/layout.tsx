@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import "./globals.css";
 import { fontNeue, spaceGrotesk } from "@/assets/fonts";
 import Header from "@/components/Header";
+import Footer from "@/components/Footer";
 
 
 
@@ -23,6 +24,7 @@ export default function RootLayout({
       >
         <Header/>
         {children}
+        <Footer/>
       </body>
     </html>
   );
