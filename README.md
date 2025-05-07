@@ -7,6 +7,9 @@ Birainy layihəsi, Next.js istifadə edilərək hazırlanmışdır və xidmətl�
 * Next.js
 * Tailwind CSS
 
+## Live Demo
+[Kliklə](https://birainy.vercel.app/)
+
 ## Quraşdırma
 
 Layihəni klonlamaq üçün aşağıdakı əmrləri istifadə edin:
