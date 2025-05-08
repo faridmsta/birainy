@@ -1,6 +1,6 @@
 import type { Metadata } from "next";
 import "./globals.css";
-import { fontNeue, spaceGrotesk } from "@/assets/fonts";
+import { fontNeue,fontDevi, spaceGrotesk } from "@/assets/fonts";
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
 
@@ -20,7 +20,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body
-        className={`${fontNeue.variable} ${spaceGrotesk.variable} antialiased`}
+        className={`${fontDevi.variable} ${fontNeue.variable} ${spaceGrotesk.variable} antialiased`}
       >
         <Header/>
         {children}

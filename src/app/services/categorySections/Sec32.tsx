@@ -35,7 +35,7 @@ const Sec32 = () => {
                 <ContactUsBtn />
                 <OurWorksBtn />
             </div>
-            <iframe className='w-full ' width="560" height="315" src="https://www.youtube.com/embed/NAiTQcoDT0o?si=cjUTFoadeicTqxua" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerPolicy="strict-origin-when-cross-origin" allowFullScreen></iframe>
+            <iframe className='w-full aspect-video rounded-[12px]' src="https://www.youtube.com/embed/NAiTQcoDT0o?si=cjUTFoadeicTqxua" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerPolicy="strict-origin-when-cross-origin" allowFullScreen></iframe>
         </section>
     )
 }

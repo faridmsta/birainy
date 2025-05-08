@@ -10,6 +10,7 @@
   --color-unhiglight: rgba(0, 0, 0, .48);
 
   --font-neue: var(--font-neue), sans-serif;
+  --font-dewi: var(--font-dewi), sans-serif;
   --font-grotesk: var(--font-space-grotesk), sans-serif;
 
   --breakpoint-mtb:993px;

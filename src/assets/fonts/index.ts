@@ -6,6 +6,11 @@ export const fontNeue = localFont({
   variable: '--font-neue', 
   display: 'swap', 
 });
+export const fontDevi = localFont({
+  src: './Dewi/dewi.ttf',
+  variable: '--font-dewi', 
+  display: 'swap', 
+});
 
 // ___Google Fonts____
 import { Space_Grotesk } from "next/font/google";

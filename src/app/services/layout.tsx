@@ -99,7 +99,7 @@ export default function RootLayout({
                             <AsideMenu />
                         </Suspense >
                     </div>
-                    <div className="right flex-8">
+                    <div className="right flex-8 w-full">
                         {children}
                     </div>
                 </div>

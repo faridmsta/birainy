@@ -44,6 +44,7 @@ const Sec43 = () => {
                     className='w-full h-full object-cover rounded-[12px]'
                 />
             </div>
+            
         </section>
     )
 }

@@ -81,7 +81,7 @@ const Header = () => {
           </div>
           <div className="hidden mtb:flex items-center justify-between bg-gray-light flex-1 py-[0.75em] px-[1.25em] xl:py-[0.875em] xl:px-[1.75em] rounded-[16px]">
             <nav className=' flex items-center '>
-              <ul className='flex items-center gap-4 xl:gap-[30px] font-grotesk'>
+              <ul className='flex items-center gap-4 xl:gap-[30px] font-dewi'>
                 {routes.slice(0, -1).map(({ label, link }, index) => (
                   <li key={label + index}>
                     <Link href={link}>
@@ -171,8 +171,8 @@ export default Header
 
 const ContactUs = () => (
   <Link href={""} className='bg-primary rounded-[8px]'>
-    <button className=' py-[0.375em] px-[1.25em]'>
-      <span className=' leading-1.5'>Bizimlə əlaqə</span>
+    <button className=' py-[0.375em] px-[1.25em] xl:px-[1.5em]'>
+      <span className=' leading-1.5 font-dewi'>Bizimlə əlaqə</span>
     </button>
   </Link>
 )

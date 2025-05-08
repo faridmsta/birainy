@@ -46,7 +46,7 @@ const Sec13 = () => {
                 <ContactUsBtn />
                 <OurWorksBtn />
             </div>
-            <iframe className='w-full rounded-2xl border-0' width="560" height="315" src="https://www.youtube.com/embed/qUpIJZT0V4A?si=42wyktAWG5CcOYTd" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerPolicy="strict-origin-when-cross-origin" allowFullScreen></iframe>
+            <iframe className='w-full aspect-video rounded-[12px]' src="https://www.youtube.com/embed/qUpIJZT0V4A?si=42wyktAWG5CcOYTd" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerPolicy="strict-origin-when-cross-origin" allowFullScreen></iframe>
             <p className="serviceSectionParagraf">Həmçinin ERP sistemi əməliyyatları avtomatlaşdırmağa, qərar qəbul etməyi təkmilləşdirməyə və rəqabət üstünlüyü əldə etməyə kömək edir.</p>
             <p className="serviceSectionParagraf">BIRainy sizin üçün sektor, sistem və fəaliyyətin çətinlik dərəcəsinə fərq qoymadan istənilən formatda ERP sistemi hazırlayır.</p>
         </section>
